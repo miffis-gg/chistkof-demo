@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Чисткоф. Уборка и химчистка. Город: Екатеринбург.">
+  <title>Чисткоф · Екатеринбург</title>
+  <link rel="stylesheet" href="./site.css">
+  <script src="./motion.js" defer></script>
+  <script src="./schedule.js" defer></script>
+  <script src="./catalog.js" defer></script>
+  <script src="./product-dialog.js" defer></script>
+  <script src="./screens.js" defer></script>
+  <script src="./cart.js" defer></script>
+</head>
+<body class="theme-aqua">
+  <a class="skip" href="#main">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap masthead">
+    <a class="wordmark" href="#main"><span class="brand-logo"><img src="./chistkof-logo.png" alt="" width="763" height="1080"></span>Чисткоф</a>
+    <nav aria-label="Навигация"><a href="#services">Услуги</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a></nav>
+    <a class="button cart-link" href="#order">
+    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h3l2.5 11h11L21 6H6"/><circle cx="9" cy="19" r="1"/><circle cx="18" cy="19" r="1"/></svg>
+    Корзина<span class="cart-count" data-cart-count hidden></span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="wrap hero hero-centered">
+      <div class="hero-copy">
+        <h1>Уборка и химчистка</h1>
+        <p class="place">Екатеринбург</p>
+        <div class="actions"><a class="button" href="#services">Выбрать услуги</a><a class="phone" href="tel:+79024461512">+7 (902) 446-15-12</a></div>
+        <details class="hero-schedule" data-schedule>
+    <summary>
+      <span class="schedule-symbol" aria-hidden="true"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+      <span class="schedule-summary"><strong>График работы</strong><span>Круглосуточно · 00:00–24:00</span></span>
+    </summary>
+    <dl class="schedule-days"><div data-day="Mon"><dt>Понедельник</dt><dd>00:00–24:00</dd></div><div data-day="Tue"><dt>Вторник</dt><dd>00:00–24:00</dd></div><div data-day="Wed"><dt>Среда</dt><dd>00:00–24:00</dd></div><div data-day="Thu"><dt>Четверг</dt><dd>00:00–24:00</dd></div><div data-day="Fri"><dt>Пятница</dt><dd>00:00–24:00</dd></div><div data-day="Sat"><dt>Суббота</dt><dd>00:00–24:00</dd></div><div data-day="Sun"><dt>Воскресенье</dt><dd>00:00–24:00</dd></div></dl>
+  </details>
+      </div>
+      <aside class="hero-about" id="about">
+        <h2>О нас</h2>
+        <p>«Чисткоф» выезжает по Екатеринбургу и области на химчистку мебели, чистку матрасов и уборку помещений. Компания также стирает ковры.</p>
+        <ul><li>Выезд на дом</li><li>Предварительная запись</li><li>Круглосуточная консультация</li><li>Оплата картой</li><li>Доставка</li><li>Сухая чистка</li><li>Биочистка</li></ul>
+      </aside>
+    </section>
+    <section class="wrap services" id="services">
+      <h2>Услуги</h2>
+      <p class="catalog-note">Цены по каталогу. Изображения иллюстративные. Итоговую стоимость уточняйте при заказе.</p>
+      <div class="catalog-controls" hidden>
+        <label>Категория<select id="catalog-category">
+          <option value="">Все категории</option>
+          <option value="0">Химчистка мебели</option><option value="1">Аренда оборудования</option><option value="2">Бытовая химия</option><option value="3">Моющий пылесос</option><option value="4">Перчатки (винил, нитрил, полиэтилен, латекс)</option><option value="5">Профессиональная химия</option><option value="6">Уборка «Генеральная», «После ремонта», уборка после квартирантов</option><option value="7">Химчистка ковров</option>
+        </select></label>
+        <label>Сортировка<select id="catalog-sort">
+          <option value="default">По каталогу</option>
+          <option value="price-asc">Сначала дешевле</option>
+          <option value="price-desc">Сначала дороже</option>
+          <option value="name">По названию</option>
+        </select></label>
+      </div>
+      <div class="service-group" data-catalog-group="0">
+        <h3>Химчистка мебели</h3>
+        <ul class="service-list"><li data-price="1 600 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:0%;--atlas-height:542.0054200542006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка мебели" data-description="Чистка обивки мягкой мебели. Для диванов компания также указывает выезд и работу с кожаной мебелью.">Химчистка мебели</button>
+            <strong>1 600 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка мебели" >В корзину</button>
+          </div>
+        </li><li data-price="1 600 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-100%;--atlas-top:0%;--atlas-height:542.0054200542006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка дивана" data-description="Выездная химчистка угловых диванов и моделей с механизмами «книжка», «еврокнижка» и «аккордеон». Компания также указывает чистку кожаной мебели.">Химчистка дивана</button>
+            <strong>1 600 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка дивана" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-200%;--atlas-top:0%;--atlas-height:542.0054200542006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка кресла" data-description="В каталоге упомянуты тканевые кресла с обивкой из хлопка, льна или шерсти. Возможность чистки конкретной обивки уточните перед заказом.">Химчистка кресла</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка кресла" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-300%;--atlas-top:0%;--atlas-height:542.0054200542006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка стула" data-description="Чистка кухонных и дизайнерских стульев. На странице компании также перечислены офисные стулья и модели с кожаной обивкой.">Химчистка стула</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка стула" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-400%;--atlas-top:0%;--atlas-height:542.0054200542006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка матраса" data-description="Компания перечисляет односпальные, полуторные, двуспальные и ортопедические матрасы. При запросе расчёта укажите размер матраса и характер пятен.">Химчистка матраса</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка матраса" >В корзину</button>
+          </div>
+        </li><li data-price="100 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:-110.14925373134325%;--atlas-height:597.0149253731342%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка игрушки" data-description="В каталоге указана чистка мягких игрушек, в том числе плюшевых мишек и кукол.">Химчистка игрушки</button>
+            <strong>100 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка игрушки" >В корзину</button>
+          </div>
+        </li><li data-price="650 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-100%;--atlas-top:-110.14925373134325%;--atlas-height:597.0149253731342%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Экспресс-сушка" data-description="Дополнительная услуга после чистки, которая ускоряет высыхание изделия.">Экспресс-сушка</button>
+            <strong>650 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Экспресс-сушка" >В корзину</button>
+          </div>
+        </li><li data-price="500 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-200%;--atlas-top:-110.14925373134325%;--atlas-height:597.0149253731342%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Турбосушка" data-description="Дополнительная сушка изделия, в том числе в труднодоступных местах.">Турбосушка</button>
+            <strong>500 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Турбосушка" >В корзину</button>
+          </div>
+        </li><li data-price="690 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-300%;--atlas-top:-110.14925373134325%;--atlas-height:597.0149253731342%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Нейтрализация бактерий, вирусов и микробов" data-description="В каталоге это отдельная дополнительная обработка к основной чистке. Состав обработки и её ограничения уточняйте у компании.">Нейтрализация бактерий, вирусов и микробов</button>
+            <strong>690 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Нейтрализация бактерий, вирусов и микробов" >В корзину</button>
+          </div>
+        </li><li data-price="590 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-400%;--atlas-top:-110.14925373134325%;--atlas-height:597.0149253731342%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Удаление застарелых пятен" data-description="Дополнительная обработка застарелых пятен. В каталоге перечислены следы напитков и органические загрязнения.">Удаление застарелых пятен</button>
+            <strong>590 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Удаление застарелых пятен" >В корзину</button>
+          </div>
+        </li><li data-price="490 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:-211.41141141141145%;--atlas-height:600.6006006006006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Удаление неприятного запаха" data-description="Обработка мебели или помещения для устранения неприятного запаха.">Удаление неприятного запаха</button>
+            <strong>490 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Удаление неприятного запаха" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="1">
+        <h3>Аренда оборудования</h3>
+        <ul class="service-list"><li data-price="1 400 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-100%;--atlas-top:-211.41141141141145%;--atlas-height:600.6006006006006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Аренда моющего оборудования" data-description="Моющая техника для самостоятельной чистки ковров, мебели и салона автомобиля. Модель, комплектацию и срок аренды уточняйте у компании.">Аренда моющего оборудования</button>
+            <strong>1 400 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Аренда моющего оборудования" >В корзину</button>
+          </div>
+        </li><li data-price="600 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-200%;--atlas-top:-211.41141141141145%;--atlas-height:600.6006006006006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Аренда робота для мойки окон" data-description="Робот для самостоятельной мойки окон, зеркал и плитки. Комплектацию и условия аренды уточняйте у компании.">Аренда робота для мойки окон</button>
+            <strong>600 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Аренда робота для мойки окон" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="2">
+        <h3>Бытовая химия</h3>
+        <ul class="service-list"><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-300%;--atlas-top:-211.41141141141145%;--atlas-height:600.6006006006006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Универсальное средство для дома Magic" data-description="Кислородный пятновыводитель и отбеливатель. В предоставленном каталоге цена указана за 1 кг.">Универсальное средство для дома Magic</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Универсальное средство для дома Magic" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="3">
+        <h3>Моющий пылесос</h3>
+        <ul class="service-list"><li data-availability="Нет в наличии">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-400%;--atlas-top:-211.41141141141145%;--atlas-height:600.6006006006006%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Karcher Puzzi 8/1 — моющий пылесос">Karcher Puzzi 8/1 — моющий пылесос</button>
+            <span class="availability">Нет в наличии</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Karcher Puzzi 8/1 — моющий пылесос" disabled>В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="4">
+        <h3>Перчатки (винил, нитрил, полиэтилен, латекс)</h3>
+        <ul class="service-list"><li data-price="480 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:-323.05295950155755%;--atlas-height:623.0529595015574%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Перчатки" data-description="В каталоге перечислены нитриловые, виниловые и латексные перчатки. В упаковке 100 штук, есть разные размеры.">Перчатки</button>
+            <strong>480 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Перчатки" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="5">
+        <h3>Профессиональная химия</h3>
+        <ul class="service-list"><li data-price="2 500 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-100%;--atlas-top:-323.05295950155755%;--atlas-height:623.0529595015574%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Shine Systems lather care kit" data-description="Набор для чистки и ухода за кожаными изделиями.">Shine Systems lather care kit</button>
+            <strong>2 500 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Shine Systems lather care kit" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="6">
+        <h3>Уборка «Генеральная», «После ремонта», уборка после квартирантов</h3>
+        <ul class="service-list"><li data-price="от 3 500 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-200%;--atlas-top:-323.05295950155755%;--atlas-height:623.0529595015574%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Уборка квартиры" data-description="Уборка жилого помещения. В каталоге указана начальная стоимость. Окончательную цену и перечень работ уточняйте у компании.">Уборка квартиры</button>
+            <strong>от 3 500 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Уборка квартиры" >В корзину</button>
+          </div>
+        </li><li data-price="от 5 000 ₽">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-300%;--atlas-top:-323.05295950155755%;--atlas-height:623.0529595015574%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Уборка коттеджа" data-description="Уборка загородного дома. В каталоге указана начальная стоимость. Объём работ и цену уточняйте перед заказом.">Уборка коттеджа</button>
+            <strong>от 5 000 ₽</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Уборка коттеджа" >В корзину</button>
+          </div>
+        </li><li data-price="от 100 ₽/м²">
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-400%;--atlas-top:-323.05295950155755%;--atlas-height:623.0529595015574%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Уборка офиса" data-description="Уборка офисного помещения. В каталоге цена указана за квадратный метр. Площадь можно указать в корзине для предварительного расчёта.">Уборка офиса</button>
+            <strong>от 100 ₽/м²</strong>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Уборка офиса" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:-420.433436532508%;--atlas-height:619.1950464396288%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Послеремонтная уборка">Послеремонтная уборка</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Послеремонтная уборка" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-100%;--atlas-top:-420.433436532508%;--atlas-height:619.1950464396288%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Мойка окон">Мойка окон</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Мойка окон" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-200%;--atlas-top:-420.433436532508%;--atlas-height:619.1950464396288%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Влажная уборка">Влажная уборка</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Влажная уборка" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-300%;--atlas-top:-420.433436532508%;--atlas-height:619.1950464396288%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Ежедневная уборка">Ежедневная уборка</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Ежедневная уборка" >В корзину</button>
+          </div>
+        </li><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:-400%;--atlas-top:-420.433436532508%;--atlas-height:619.1950464396288%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Комплексная уборка">Комплексная уборка</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Комплексная уборка" >В корзину</button>
+          </div>
+        </li></ul></div><div class="service-group" data-catalog-group="7">
+        <h3>Химчистка ковров</h3>
+        <ul class="service-list"><li>
+          <div class="service-art" aria-hidden="true"><img src="./catalog-atlas.png"
+    alt="" width="280" height="186" loading="lazy" decoding="async"
+    style="--atlas-left:0%;--atlas-top:-526.9592476489028%;--atlas-height:626.9592476489028%"></div>
+          <div class="service-card-body">
+            <button type="button" class="service-title service-detail-trigger" aria-haspopup="dialog" aria-controls="product-dialog"
+              title="Химчистка ковров" data-description="Компания предлагает стирку и химчистку ковров из шерсти, вискозы, синтетики и шёлка. При заказе уточните состав изделия и характер загрязнения.">Химчистка ковров</button>
+            <span class="availability">Цена по запросу</span>
+            <button type="button" class="button button-secondary add-to-cart" data-service="Химчистка ковров" >В корзину</button>
+          </div>
+        </li></ul></div>
+    </section>
+    <section class="reviews" id="reviews">
+      <div class="wrap review-heading">
+        <h2>Отзывы</h2>
+        <p class="rating"><span aria-hidden="true">★★★★★</span> 5 из 5 на Яндекс Картах</p>
+      </div>
+        
+      <div class="wrap review-footer"><a class="button" href="https://yandex.com/maps/org/chistkof/116040276518/reviews/">Посмотреть все отзывы</a></div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2>Контакты</h2>
+        <p class="contact-address">Екатеринбург, ул. Блюхера, 45, этаж 2</p>
+        <p class="contact-hours">Круглосуточно</p>
+        <div class="actions contact-actions">
+          <a class="button" href="https://telegram.me/Halleluia96">Написать в Telegram</a>
+          <a class="phone" href="tel:+79024461512">+7 (902) 446-15-12</a>
+          <a class="button button-secondary" href="https://vk.com/chistkof">ВКонтакте</a><a class="button button-secondary" href="https://wa.me/79024461512">WhatsApp</a>
+          <a class="button button-secondary" href="https://yandex.com/maps/?mode=routes&amp;rtext=~%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%91%D0%BB%D1%8E%D1%85%D0%B5%D1%80%D0%B0%2C%2045&amp;rtt=auto">Как доехать</a>
+        </div>
+        <iframe class="contact-map" src="https://www.openstreetmap.org/export/embed.html?bbox=60.637079%2C56.850808%2C60.651079%2C56.856808&amp;layer=mapnik&amp;marker=56.853808%2C60.644079" title="Адрес компании на OpenStreetMap" loading="lazy" width="1200" height="360"></iframe>
+        <div class="map-meta">
+          <a class="map-link" href="https://yandex.com/maps/org/chistkof/116040276518/">Открыть на Яндекс Картах</a>
+          <a class="map-credit" href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <main class="order" id="order" data-site-screen aria-labelledby="order-heading" tabindex="-1" hidden>
+    <div class="wrap order-wrap">
+      <header class="order-heading">
+        <div><a class="back-to-catalog" href="#services">Вернуться к услугам</a>
+        <h1 id="order-heading">Корзина</h1></div>
+        <p class="order-count" data-order-count>0 позиций</p>
+      </header>
+      <form class="cart-form" autocomplete="off">
+        <div class="cart-panel">
+          <h3>Выбранные позиции</h3>
+          <div class="cart-empty" data-cart-empty>
+            <span class="cart-empty-icon"><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h3l2.5 11h11L21 6H6"/><circle cx="9" cy="19" r="1"/><circle cx="18" cy="19" r="1"/></svg></span>
+            <p>Пока ничего не выбрано</p>
+            <a class="button button-secondary" href="#services">Открыть каталог</a>
+          </div>
+          <ul class="cart-items" data-cart-items></ul>
+          <div class="cart-estimate" aria-live="polite">
+            <div><span>Ориентир по каталогу</span> <strong data-estimate>—</strong></div>
+            <p data-estimate-note>Выберите позиции, чтобы увидеть расчёт.</p>
+          </div>
+          <label for="order-details">Что нужно сделать? <span>(необязательно)</span></label>
+          <textarea id="order-details" rows="4" maxlength="400" placeholder="Например, почистить два кресла"></textarea>
+          <p class="cart-note">Не указывайте имя, телефон или точный адрес. Черновик создаётся в этой вкладке. Отправку подтверждаете в мессенджере.</p>
+        </div>
+        <div class="cart-panel draft-panel">
+          <label for="order-draft">Сообщение компании</label>
+          <textarea id="order-draft" rows="6" readonly placeholder="Здесь появится текст после выбора услуги или добавления деталей"></textarea>
+          <div class="actions cart-actions">
+            <button type="button" class="button" data-draft-url="https://telegram.me/Halleluia96" disabled>Отправить заявку в Telegram</button>
+            <button type="button" class="button button-secondary" data-draft-url="https://wa.me/79024461512" disabled>Отправить заявку в WhatsApp</button>
+            <button type="button" class="button button-secondary" data-copy-draft disabled>Скопировать текст</button>
+          </div>
+          <p class="cart-note" data-cart-status role="status"></p>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a class="wordmark" href="#main"><span class="brand-logo"><img src="./chistkof-logo.png" alt="" width="763" height="1080"></span>Чисткоф</a>
+          <p>Уборка и химчистка · Екатеринбург</p>
+          <div class="footer-socials" aria-label="Социальные сети и мессенджеры"><a href="https://vk.com/chistkof" aria-label="ВКонтакте" title="ВКонтакте">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6c.6 6.6 4.5 11 8.5 11H13v-4.3c2 0 3.3 2.4 4.7 4.3H21c-1-2.2-2.5-4-4.1-5.3C18.6 10 19.7 8 20.4 6h-3c-.9 2.2-2.4 4-4.4 4.6V6h-3v7.8C8 13 6.4 9.9 6 6Z"/></svg></a><a href="https://wa.me/79024461512" aria-label="WhatsApp" title="WhatsApp">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.4 7.6L4 20l1-3.9a8.5 8.5 0 1 1 15.5-4.6Z"/><path d="M9 8.5c0 3.2 3.1 6.3 6.3 6.3l1-1.8-2.1-1.1-1 1a5 5 0 0 1-2.4-2.4l.9-.9-1-2.1Z"/></svg></a><a href="https://telegram.me/Halleluia96" aria-label="Telegram" title="Telegram">
+        <svg aria-hidden="true" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3 10.5 18-7-3.3 16-5.4-4.2-2.6 2.4v-4.4L17 7.6 8 12.3Z"/></svg></a></div>
+        </div>
+        <div class="footer-columns">
+          <nav class="footer-nav" aria-label="Разделы сайта">
+            <h2>Разделы</h2>
+            <a href="#services">Услуги</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contact">Контакты</a>
+          </nav>
+          <div class="footer-contact">
+            <h2>Контакты</h2>
+            <a class="phone" href="tel:+79024461512">+7 (902) 446-15-12</a>
+            <p>Екатеринбург, ул. Блюхера, 45, этаж 2</p>
+            <p>Круглосуточно</p>
+          </div>
+          <div class="footer-order">
+            <h2>Заказ</h2>
+            <a href="#order">Открыть корзину</a>
+            <a href="https://yandex.com/maps/?mode=routes&amp;rtext=~%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%91%D0%BB%D1%8E%D1%85%D0%B5%D1%80%D0%B0%2C%2045&amp;rtt=auto">Как доехать</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-note"><span>Демоверсия для портфолио</span><p>Автор не представляет компанию и не претендует на права на бренд.</p></div>
+    </div>
+  </footer>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-title" aria-describedby="product-description">
+    <div class="product-dialog-content">
+      <button type="button" class="product-close" aria-label="Закрыть описание" autofocus><svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+      <div class="product-visual">
+        <div class="product-media" data-product-media hidden></div>
+        <div class="product-related" data-product-related role="group" aria-label="Позиции в этой категории" hidden></div>
+      </div>
+      <div class="product-copy">
+        <h2 id="product-title"></h2>
+        <p class="product-price" data-product-price></p>
+        <p id="product-description"></p>
+        <div class="product-selection" data-product-selection hidden>
+          <div class="product-quantity">
+            <span data-product-unit>Количество</span>
+            <div class="product-counter" role="group" aria-label="Выбор количества">
+              <button type="button" data-product-step="-1" aria-label="Уменьшить количество">−</button>
+              <output data-product-count aria-live="polite">1</output>
+              <button type="button" data-product-step="1" aria-label="Увеличить количество">+</button>
+            </div>
+          </div>
+          <label class="product-area" hidden>Площадь, м² <input type="number" inputmode="decimal" min="0.01" max="1000000" step="any" placeholder="Например, 20"></label>
+          <div class="product-total"><span>Ориентир по каталогу</span><output data-product-total aria-live="polite"></output></div>
+          <p class="product-price-note" data-product-price-note>Актуальную стоимость уточняйте у компании.</p>
+          <button type="button" class="button product-add" data-product-add hidden>Добавить в корзину</button>
+        </div>
+        <span class="product-status" data-product-status role="status"></span>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>
